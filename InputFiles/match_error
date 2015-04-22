@@ -1,0 +1,11 @@
+program {
+
+	int x;
+	
+	if ( id1 > id2) then { z = z + 4; } elsezzzz { z = z + 2; };
+		
+	x = 4;
+	
+	if ( id1 > id2) thenzzzz { z = z + 4; } else { z = z + 2; };
+
+};

@@ -1,0 +1,11 @@
+program {
+	int a;
+	int b;
+	
+	b = 4;
+	
+	get(a);
+	
+	put(b);
+	put(b + a);
+};

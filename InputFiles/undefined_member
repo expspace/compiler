@@ -1,0 +1,22 @@
+class A {
+	B y;
+	
+};
+
+class B {
+	int p;
+};
+
+program {
+	int x;
+	A var;
+	
+
+	x = var.y;
+	x = var.z;
+	x = var.func();
+	
+	x = var.y.p;
+	x = var.y.q;
+};
+

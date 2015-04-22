@@ -1,0 +1,13 @@
+class A{
+	int var[3][3][3];
+
+};
+
+program { 
+	A object;
+	int var;
+	
+	var = object.var[2][1][2];
+
+
+};

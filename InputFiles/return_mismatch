@@ -1,0 +1,19 @@
+
+class A {
+	float methodA() {
+		int x;
+		x = 4;
+		return(x);		//error returns integer
+	};
+};
+
+program {
+};
+
+int func() {
+	return(4.3);		//error returns float
+};
+
+float func2(int arg1) {
+	return (arg1 + 1);	//error returns int
+};

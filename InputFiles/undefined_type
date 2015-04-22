@@ -1,0 +1,26 @@
+/* Test to display undefined data types and reporting for variable, parameters, functions */
+
+class A {
+
+	B a;
+	C method() { 
+			
+	};
+
+};
+
+program {
+	int x;
+	A y;
+	D var1;
+	for(E t = 0; t<=100 ; t = t + 1) {
+	
+	};
+};
+
+F func(J par1, A par2[3]) {
+	L var1;
+};
+
+
+

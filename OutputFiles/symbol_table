@@ -1,0 +1,19 @@
+Symbol table: global
+#Entries: 2
+name                kind                type                symbol table reference   dimension           num params          param types              memory address      memory size         
+program             function            null                SymbolTable@677327b6     0                   0                                            program0            1                   
+summation           function            int                 SymbolTable@14ae5a5      0                   3                   int int int              summation1          4                   
+
+Symbol table: program
+#Entries: 2
+name                kind                type                symbol table reference   dimension           num params          param types              memory address      memory size         
+x                   variable            int                 null                     0                   0                                            x2                  4                   
+a                   variable            int                 null                     0                   0                                            a3                  4                   
+
+Symbol table: summation
+#Entries: 3
+name                kind                type                symbol table reference   dimension           num params          param types              memory address      memory size         
+par1                parameter           int                 null                     0                   0                                            par14               4                   
+par2                parameter           int                 null                     0                   0                                            par25               4                   
+par3                parameter           int                 null                     0                   0                                            par36               4                   
+

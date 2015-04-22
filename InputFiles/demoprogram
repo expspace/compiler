@@ -1,0 +1,37 @@
+/*test comment1*/
+
+program {
+	int a;
+	int b;
+	int c;
+	int d[2][3][4];
+	a = 1;
+	b = 2;
+	
+	if(a > b) then {
+		if(a > b) then {
+			a = 3;
+		} else {
+			a = 4;
+		};
+	} else {
+		b = 5;
+	};
+	
+	for( int abc = 15; abc > 0; abc = abc - 1 )
+	{
+		for( int def = 10; def > 0; def = def - 1 ) {
+			a = a + 1;
+		};
+	};
+
+	
+	get(c);
+
+	//test comment2
+	a = 7 * 2 + 3 - a / 5;
+	b = 7 * a + 3 - 20 / 5 + ( b - c);
+
+	put(a);  //put -13
+	put(8*b);	//put -87 + c
+};

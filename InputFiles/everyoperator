@@ -1,0 +1,22 @@
+program {
+	int value1;
+	float value2;
+	int value3;
+	
+	/*mixed relations and arithmetic expression*/
+	
+	value1 = 7 * 2 + 3 - 20 / 5 >= ((8 + 4) / 2) * 8 ;
+	value2 = 7.0 * 2.0 + 3.0 - 20.0 / 5.0 <> ((8.0 + 4.0) / 2.0) * 8.0 ;
+	
+	/*all relational expression only one relOp per expr*/
+	
+	value1 = 100 < 4;
+	value2 = 203.0 <= 20.2;
+	value3 =  33 > value1;
+	value3 = 40 >= value1 + 2;
+	value2 = 20.9 == (1.05 + 3.9) / 5.0009;
+	value3 = 3 <> 4;
+
+
+
+};

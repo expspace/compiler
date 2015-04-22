@@ -1,0 +1,9 @@
+program {
+	int array1[2][2][3][4][5];
+	int array2[2][3][2];
+	
+	array1[1][1][2] = 5; 					//error incorrect dimension array1
+	
+	array1[1][2][2][3][2] = array2[1];	    //error incorrect dimension array2
+};
+

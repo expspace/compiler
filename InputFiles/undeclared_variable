@@ -1,0 +1,21 @@
+/* Test to display undeclared variable detection and reporting for variable, parameters */
+
+class A {
+	int method() { 
+		s = 14;
+	};
+
+};
+
+program {
+	x = j + k;
+	get(y);
+	put(z);
+};
+
+int func() {
+	a = 4;
+};
+
+
+

@@ -1,0 +1,16 @@
+program {
+	int a;
+	int b;
+
+	a = funcA(4, 5);
+	b = funcB(4.5, 5.5);
+
+};
+
+int funcA(int par1) {
+	
+};
+
+int funcB(int par1, float par2) {
+
+};

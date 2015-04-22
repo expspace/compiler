@@ -1,0 +1,36 @@
+entry
+x2 res 4
+a3 res 4
+addi r1, r0, 4
+addi r3, r1, 1
+temp8 res 4
+sw temp8(r0), r3
+lw r4, temp8(r0)
+lw r5, a3(r0)
+addi r6, r0, 2
+lw r3, summation1(r0)
+jlr r15, r3
+lw r3, summation1res(r0)
+sw x2(r0), r3
+hlt
+summation1res res 4
+summation1
+par14 res 4
+par25 res 4
+par36 res 4
+sw par14(r0), r4
+sw par25(r0), r5
+sw par36(r0), r6
+lw r1, par25(r0)
+lw r2, par36(r0)
+add r3, r1, r2
+temp9 res 4
+sw temp9(r0), r3
+lw r1, par14(r0)
+lw r2, temp9(r0)
+add r3, r1, r2
+temp10 res 4
+sw temp10(r0), r3
+lw r3, temp10(r0)
+sw summation1res(r0), r3
+j r15

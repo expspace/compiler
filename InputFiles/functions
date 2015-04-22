@@ -1,0 +1,27 @@
+/* function declarations funcres, load args from registers and store and jump */
+
+class A {
+	int methodA(int param1, int param2, int param3) {
+		int x;
+		x = 4;
+		return(x);
+	};
+};
+
+program {
+};
+
+int func(int param1, int param2) {
+	int y;
+	y = 40;
+	return(y + 2);
+};
+
+int func2(int arg1, int arg2, float arg3, float arg4) {
+	if(arg1 > arg2) then {
+	  return (99);
+	} else {
+	  return (33);
+	};
+
+};

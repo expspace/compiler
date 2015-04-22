@@ -1,0 +1,20 @@
+class A {
+	int x;
+	float method(int par1, int par2) {
+		int x;
+		float y;
+	};	
+};
+
+program {
+	
+	int a;
+	int b[2][3];
+	
+	float c;
+	float d[3][2][3];
+};
+
+int freeFunc(int par1, int par2[4][4]) {
+	int funcvar;
+};

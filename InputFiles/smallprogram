@@ -1,0 +1,21 @@
+
+class A {
+
+
+};
+
+program {
+	int a;
+	int b[2][3];
+	
+	float c;
+	float d[2][3][4];
+	
+	A e;
+	A f[2][2][2][2][4];
+
+};
+
+int freeFunc1(float par1[2][3], int par2, A par3) {
+	float var1;
+};

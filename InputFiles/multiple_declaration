@@ -1,0 +1,26 @@
+/* Test to display multiple entry error detection and reporting for variable, method, and class */
+
+class A {
+	int func() {
+	
+	};
+	
+	int func() {
+	
+	};
+};
+
+class A {
+
+
+};
+
+program {
+	float value;
+	float value;
+	float value;
+};
+
+int func1(int a) {
+	int a;
+};

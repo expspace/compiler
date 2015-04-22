@@ -1,0 +1,14 @@
+program {
+	int x;
+	float y;
+
+	y = 40;
+	
+	x = func();
+
+
+};
+
+float func() {
+	return (3);
+};

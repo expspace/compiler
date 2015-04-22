@@ -1,0 +1,13 @@
+program {
+
+	int x[4]
+	int y;
+
+	int rate;
+	
+	float time
+	int z;
+	
+	rate = 4;
+	
+};

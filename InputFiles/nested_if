@@ -1,0 +1,19 @@
+/*Nested if statements with appropriate jump labels*/
+
+program {
+	int a;
+	int b;
+	a = 1;
+	b = 2;
+	
+	if(a > b) then {
+		if(a > b) then {
+			a = 3;
+		} else {
+			a = 4;
+		};
+	} else {
+		b = 5;
+	};
+
+};

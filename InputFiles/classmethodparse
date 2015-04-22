@@ -1,0 +1,35 @@
+
+/*Test to display table structure and correct symbol table semantic record entries in each */
+
+class A {
+
+	int var1A;
+	B var3A;
+	
+	int func1A() {
+		int var1Func1A;
+	};
+};
+
+class B {
+
+	int var1B;
+	A var3B;
+	
+	A func1B() {
+		int var1Func1B;
+	};
+	
+
+};
+
+program {
+	int a;
+	int h[2][3];
+	
+
+};
+
+int freeFunc1(float par1) {
+	float var1;
+};

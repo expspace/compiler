@@ -1,0 +1,18 @@
+/* block comment1 */
+
+program {
+	int x; //inline comment 1
+	int y;
+	
+	y = 4; //inline comment 2
+	x = y;
+	
+	/*
+	 * block comment2
+	 * block comment2
+	 * block comment2
+	 */
+	
+	x = 3;
+	
+};

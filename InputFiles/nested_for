@@ -1,0 +1,17 @@
+/*Nested for statements with appropriate gowhile and endwhile labels
+ERROR: cgen expr2 for update assignstat before statblock, cgen assignment occurs correctly*/  
+
+program {
+	int a;
+	int b;
+	a = 1;
+	b = 2;
+	
+	for( int abc = 15; abc > 0; abc = abc - 1 )
+	{
+		for( int def = 10; def > 0; def = def - 1 ) {
+			a = a + 1;
+		};
+	};
+
+};
