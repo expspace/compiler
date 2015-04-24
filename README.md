@@ -8,8 +8,9 @@ the compilation process:
   * Semantic Analysis
   * Code Generation
 
-Files to compile are located in the folder "InputFiles". Errors detected are displayed on the console and output
-for token sequence, derivation sequence, symbol table info and moon output is located in the folder "OutputFiles".
+Files to compile are located in the folder "InputFiles". After running the program a prompt for the file name occurs, 
+write the file name as found in the "InputFiles" folder. Errors detected are displayed on the console window and output
+for token sequence, derivation sequence, symbol table info and moon output are located in the folder "OutputFiles".
 
 Known Missing Features/Bugs:
   * Code Generation : missing offset mechanism (arrays and class variables)
