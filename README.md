@@ -1,6 +1,5 @@
 # Compiler Project 
-A semester long project for a course on compiler design. This project included the following components used in
-the compilation process:
+A semester long project for a course on compiler design. The compiler translates from a source language similar in syntax to the C programming language to MOON assembly code which runs on the MOON virtual machine. While compiling the program checks for syntactic as well as semantic and lexicographical errors and outputs detailed error messages if found. This project includes the following components used in the compilation process::
 
   * Lexical Analysis
   * Parsing (Syntactical Analysis)
